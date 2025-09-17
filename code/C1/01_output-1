@@ -1,0 +1,32 @@
+content='根据上下文信息，文中举了以下例子：\n\n1.  **自然界中的羚羊**：羚羊出生后通过试错学习站立和奔跑，以适应环境。\n2.  **股票交易**：将买卖股票看作强化学习过程，根据市场反馈学会最大化奖励。\n3.  **玩雅达利游戏（如Breakout, Pong）**：通过不断试错学习如何通关。\n4.  **选择餐馆**：利用是去已知的最喜欢的餐馆；探索是尝试新的餐馆。\n5.  **做广告**：利用是采取已知最优的广告策略；探索是尝试新的广告策略。\n6.  **挖油**：利用是在已知有油的地方挖；探索是在新的地方尝试，可能发现大油田也可能失败。\n7.  **玩游戏（如《街头霸王》）**：利用是总是采取一种特定策略（如蹲角落出脚）；探索是尝试新的招式（如放出“大招”）。' 
+
+additional_kwargs={'refusal': None} 
+response_metadata={
+    'token_usage': {
+        'completion_tokens': 199, 
+        'prompt_tokens': 5550, 
+        'total_tokens': 5749, 
+        'completion_tokens_details': None, 
+        'prompt_tokens_details': {
+            'audio_tokens': None, 
+            'cached_tokens': 0
+        }, 
+        'prompt_cache_hit_tokens': 0, 
+        'prompt_cache_miss_tokens': 5550
+    }, 
+    'model_name': 'deepseek-chat', 
+    'system_fingerprint': 'fp_08f168e49b_prod0820_fp8_kvcache', 
+    'id': '40882d4c-b4ea-4857-8fc1-1d186ca26e63', 
+    'service_tier': None, 
+    'finish_reason': 'stop', 
+    'logprobs': None
+} 
+        
+id='run--355de6f6-b3d3-4d5c-85bf-4ca855552fc5-0' 
+
+usage_metadata={
+    'input_tokens': 5550, 
+    'output_tokens': 199,
+    'total_tokens': 5749, 
+    'input_token_details': {'cache_read': 0}, 'output_token_details': {}
+}
